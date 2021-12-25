@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+nav {
+    margin-top: 20px;
+}
+
+h1 {
+    justify-content:center ;
+display: flex;
+font-size: 50px;
+}
+.link-nav {
+    margin-top: 0px;
+    text-decoration: none;
+    color: lime; background-color: limegreen;
+border: double lime 10px;
+}
+.link-header {
+    color: lime; background-color: limegreen;
+border: double lime 10px;
+    font-size: 50px;
+justify-content:center ;
+display: flex;
+transition: 1s ease-in-out;
+text-decoration: none;
+}
+.link-header:hover {
+text-decoration: none;   
+color: rgb(15, 0, 155); 
+background-color: blue;
+border: double rgb(15, 0, 155) 10px;
+transition: 1s ease-in-out;
+}
+.ere {
+        color: rgb(0, 217, 255);
+        background-color: blueviolet;
+        background-image:linear-gradient(blue,blue) ;
+border: double rgb(0, 217, 255) 10px;
+    font-size: 50px;
+justify-content:center ;
+display: flex;
+transition: 1s ease-in-out;
+text-decoration: none;
+border-radius: 5px;
+}
+.ere:hover {
+    background-image: linear-gradient(to right, blue,white,red);
+    
+    transition: 1s ease-in;
+    
+}
+.er {
+           color: rgb(255, 255, 255);
+        background-color: red;
+
+border: double rgb(0, 0, 0) 10px;
+    font-size: 50px;
+justify-content:center ;
+display: flex;
+transition: 1s ease-in-out;
+text-decoration: none;
+border-radius: 5px; 
+}
+.er:hover {
+               color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+
+border: double rgb(255, 0, 0) 10px;
+    font-size: 50px;
+justify-content:center ;
+display: flex;
+transition: 1s ease-in-out;
+text-decoration: none;
+border-radius: 5px; 
+}
